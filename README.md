@@ -1,57 +1,61 @@
 # To-Do-List-with-Calendar
 task 3 for ORISION TECHNOLOGY Internship 
 
-To-Do List & Calendar App
-A simple and intuitive To-Do List and Calendar application built using HTML, CSS, and JavaScript. This app enables users to manage regular tasks and date-specific tasks, making it easy to stay organized and on top of their daily schedules.
+# To-Do List and Calendar App
 
-Features
-Regular To-Do List:
+A modern To-Do List and Calendar application that allows users to manage their tasks both on a daily and calendar-specific basis. The app stores tasks locally and displays them in a clean, user-friendly interface. It is built with HTML, CSS, and JavaScript.
 
-Add tasks and mark them as completed or pending.
-Remove tasks when they are no longer needed.
-Calendar To-Do List:
+## Live Demo
 
-Add tasks that are specific to certain dates.
-View tasks for any given date on the calendar.
-Organize tasks by date and manage them efficiently.
-Local Storage:
+You can try out the live version of the app here:
 
-All tasks are stored in the browser's local storage, so your data persists across page reloads.
-Responsive Design:
+[https://chandni2003.github.io/todo-calender-app/](https://chandni2003.github.io/todo-calender-app/)
 
-The app is fully responsive and works seamlessly on both desktop and mobile devices.
+## Features
 
-Getting Started
-Prerequisites
-A modern web browser (Chrome, Firefox, Safari, etc.)
-No server-side setup required.
-Installation
-Clone the repository:
+- **To-Do List**: Add, mark as completed, and delete tasks on a regular to-do list.
+- **Calendar View**: Add tasks for specific dates and view them under the corresponding date on the calendar.
+- **Local Storage**: Tasks are saved to the browser’s local storage, allowing them to persist across page reloads.
+- **Responsive Design**: The app is responsive and works well on both desktop and mobile devices.
+- **Task Management**: Users can manage tasks easily with features to toggle task completion and delete tasks.
 
-bash
-Copy code
-git clone https://github.com/your-username/todolist-calendar-app.git
-Open the index.html file in your browser to run the app.
+## Tech Stack
 
-Alternatively, you can use a local server (like VSCode's Live Server extension) to run the app.
+- HTML
+- CSS
+- JavaScript
 
-Running Locally
-Clone this repository:
+## How to Use
 
-bash
-Copy code
-git clone https://github.com/your-username/todolist-calendar-app.git
-Open index.html in your browser to use the app locally.
+1. **Access the Live App**: 
+   Visit the live demo at [https://chandni2003.github.io/todo-calender-app/](https://chandni2003.github.io/todo-calender-app/).
 
-All changes you make (adding tasks, marking tasks as complete) will be saved locally in your browser's storage and persist even after refreshing the page.
+2. **Add Regular Tasks**:
+   - Enter a task in the input box under the **To-Do List** section.
+   - Click the "Add Task" button to add it to your list.
+   - Mark tasks as completed or delete them.
 
-Technologies Used
-HTML: For structuring the web page.
-CSS: For styling and layout, including modern design features like gradients, flexbox, and responsive design.
-JavaScript: For adding interactivity, managing tasks, and saving data to local storage.
-Local Storage: For persisting tasks and calendar events across browser sessions.
+3. **Add Calendar Tasks**:
+   - Select a date from the calendar.
+   - Enter a task for that date.
+   - Click the "Add Task to Calendar" button to add it to the respective date on the calendar.
 
+4. **Edit or Delete Tasks**:
+   - Click the checkbox next to a task to mark it as completed.
+   - Click the trash icon to delete a task.
+
+## How to Clone and Run Locally
+
+If you would like to run this app locally, follow these instructions:
+
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/chandni2003/todo-calender-app.git
+
+
+Contributing
+Contributions are welcome! If you'd like to contribute to the development of this app, feel free to fork the repository and submit a pull request.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
