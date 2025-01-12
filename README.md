@@ -9,7 +9,7 @@ A modern To-Do List and Calendar application that allows users to manage their t
 
 You can try out the live version of the app here:
 
-[https://chandni2003.github.io/todo-calender-app/](https://chandni2003.github.io/todo-calender-app/)
+[ https://chandni2003.github.io/To-Do-List-with-Calendar/]( https://chandni2003.github.io/To-Do-List-with-Calendar/)
 
 ## Features
 
@@ -28,7 +28,7 @@ You can try out the live version of the app here:
 ## How to Use
 
 1. **Access the Live App**: 
-   Visit the live demo at [https://chandni2003.github.io/todo-calender-app/](https://chandni2003.github.io/todo-calender-app/).
+   Visit the live demo at  https://chandni2003.github.io/To-Do-List-with-Calendar/]( https://chandni2003.github.io/To-Do-List-with-Calendar/).
 
 2. **Add Regular Tasks**:
    - Enter a task in the input box under the **To-Do List** section.
