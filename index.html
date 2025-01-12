@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📋 My Productivity Hub</h1>
+        <p>Manage your daily tasks and plan for the future with ease!</p>
+    </header>
+
+    <div class="main-container">
+        <!-- Daily To-Do List Section -->
+        <div class="todo-container">
+            <h2>📝 Daily To-Do List</h2>
+            <p>Add, complete, or remove tasks to stay organized throughout the day.</p>
+            <form id="task-form">
+                <input 
+                    type="text" 
+                    id="task-input" 
+                    placeholder="What needs to be done today?" 
+                    required>
+                <button type="submit">➕ Add</button>
+            </form>
+            <ul id="task-list" aria-live="polite"></ul>
+        </div>
+
+        <!-- Calendar-Based To-Do List Section -->
+        <div class="calendar-container">
+            <h2>📅 Calendar To-Do List</h2>
+            <p>Plan your tasks for specific dates and stay ahead!</p>
+            <form id="calendar-form">
+                <input type="date" id="date-input" required>
+                <input 
+                    type="text" 
+                    id="date-task-input" 
+                    placeholder="Add a task for the selected date" 
+                    required>
+                <button type="submit">➕ Add to Calendar</button>
+            </form>
+            <div id="calendar-task-container">
+                <h3>📌 Tasks by Date</h3>
+                <div id="date-task-lists"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>🎯 Stay productive and conquer your goals!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
